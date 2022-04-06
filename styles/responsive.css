@@ -1,0 +1,62 @@
+@media only screen and (min-width: 760px) {
+  body {
+    background-image: url('../images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* HEADER */
+  header {
+    padding-left: 2rem;
+  }
+
+  header #logo-image img {
+    width: 50%;
+  }
+
+  /* CONTAINER */
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 4rem;
+    margin-left: 4rem;
+
+    gap: 3rem;
+  }
+
+  /* hero image */
+
+  .container .hero-image {
+    width: 50%;
+  }
+
+  .container .hero-image img {
+    width: 100%;
+  }
+
+  /* text */
+  .text {
+    text-align: left;
+    width: 60%;
+  }
+
+  .text .title {
+    font-size: 2rem;
+    width: 65%;
+  }
+
+  /* SOCIAL MEDIAS */
+  .social-medias {
+    margin-right: 4rem;
+    margin-left: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}

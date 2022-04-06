@@ -1,0 +1,114 @@
+/* HEADER */
+
+header {
+  padding: 1.5rem;
+}
+
+header #logo-image {
+  width: 30%;
+}
+
+header #logo-image img {
+  width: 100%;
+}
+
+/* CONTAINER */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+}
+
+/* hero image */
+
+.container .hero-image {
+  width: 90%;
+}
+
+.container .hero-image img {
+  width: 100%;
+}
+
+/* text */
+
+.text {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.text .title {
+  font-family: var(--heading-font-family);
+  color: #f8f8f8;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.text .description {
+  font-family: var(--body-font-family);
+  color: #f8f8f8;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.text .button {
+  width: 220px;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #f8f8f8;
+  color: var(--violet);
+  border: none;
+
+  font-weight: 400;
+
+  box-shadow: 0px 5px 5px hsl(257, 42%, 30%);
+  transition: 0.2s;
+
+  cursor: pointer;
+}
+
+body.hasHover .text .button:hover {
+  transition: 0.2s;
+  background-color: var(--soft-magenta);
+  color: #f8f8f8;
+  font-weight: 600;
+}
+
+/* SOCIAL MEDIAS */
+.social-medias {
+  margin-top: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  gap: 20px;
+}
+
+.social-medias div a {
+  color: #f8f8f8;
+  width: 30px;
+  height: 30px;
+  padding: 0.4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  border: 2px solid #f8f8f8;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+body.hasHover .social-medias div a:hover {
+  transition: 0.2s;
+  color: var(--soft-magenta);
+  border: 2px solid var(--soft-magenta);
+}
